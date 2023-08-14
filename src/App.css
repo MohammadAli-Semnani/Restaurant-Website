@@ -102,8 +102,8 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .custom__button,
-  .p__cormorant {
+  .custom__button
+   {
     font-size: 37px;
     line-height: 67px;
   }
