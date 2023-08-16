@@ -18,9 +18,33 @@
     flex-direction: row;
 
 }
-.app__specialMenu{
-
+.app__specialMenu_menu_heading{
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: .04em;
+    color: var(--color-white);
 }
-.app__specialMenu{
+.specialMenu-menu_wine,
+.specialMenu-menu_cocktails{
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+}
+.specialMenu-menu_wine-img{
+    width: 410px;
+    margin: 0 2rem;
+}
+.specialMenu-menu_wine-img img{
+    width: 100%;
+    height: auto;
+}
 
+.app__specialMenu-menu-item{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 2rem 0;
 }

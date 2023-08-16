@@ -9,7 +9,7 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
-    {/* <SpecialMen  */}
+    <SpecialMenu />
   </div>
 );
 
