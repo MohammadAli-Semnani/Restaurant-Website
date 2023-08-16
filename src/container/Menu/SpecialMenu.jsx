@@ -6,7 +6,7 @@ import { MenuItem, SubHeading } from '../../components';
 
 const SpecialMenu = () => {
   return (
-    <div className='app__specialMenu flex__center section__pading' id='menu'>
+    <div className='app__specialMenu flex__center section__padding' id='menu'>
       <div className='app__specialMenu-title'>
         <SubHeading title="Menu that fits you pallate" />
         <h1 className='headtext__cormorant'>Today's Special</h1>

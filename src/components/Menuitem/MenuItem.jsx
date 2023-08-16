@@ -4,7 +4,7 @@ import './MenuItem.css';
 const MenuItem = ({ title, price, tags }) => {
   
   return (
-    <div className='qpp__menuitem '>
+    <div className='app__menuitem '>
       <div className='app__menuitem-head'>
 
         <div className='app__menuitem-name'>

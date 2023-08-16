@@ -5,18 +5,21 @@
   flex-direction: column;
 }
 
-.app__menuitem-haed {
+.app__menuitem-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .app__menuitem-sub {
   width: 100%;
   margin-top: 0.2rem;
 }
+
 .app__menuitem-name {
   flex: 1;
 }
+
 .app__menuitem-dash {
   width: 90px;
   height: 1px;
