@@ -21,7 +21,8 @@ const Chef = () => {
           <div className='app__chef-content-quote'>
             <img src={images.quote} alt="quote" />
             <p className='p__opensans'>
-            Ducimus minus assumenda, culpa impedit qui quam suscipit error magnam quibusdam corporis quasi, fugit incidunt.</p> 
+              Ducimus minus assumenda, culpa impedit qui quam suscipit error magnam quibusdam corporis quasi, fugit incidunt.
+            </p> 
           </div>
 
           <p className='p__opensans'>
