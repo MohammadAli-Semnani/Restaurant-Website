@@ -10,6 +10,7 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
+    <Chef/>
   </div>
 );
 

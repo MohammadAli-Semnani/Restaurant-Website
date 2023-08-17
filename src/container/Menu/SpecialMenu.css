@@ -30,12 +30,12 @@
   width: 100%;
 }
 .app__specialMenu-menu_img {
-  width: 410px;
+  width: 400px;
   margin: 0 2rem;
 }
 .app__specialMenu-menu_img img {
   width: 100%;
-  height: auto;
+  max-height: 800px;
 }
 
 .app__specialMenu_menu_item {
@@ -69,7 +69,10 @@
   .app__specialMenu-menu_img{
     width: 100%;
   }
-  
+  .app__specialMenu-menu_img img {
+  width: 100%;
+  height: auto;
+}
   .app__specialMenu_menu_heading{
     font-size: 35px;
     line-height: 48.5px;
