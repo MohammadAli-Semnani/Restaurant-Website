@@ -11,7 +11,8 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Chef />
-    <Intro/>
+    <Intro />
+    <Laurels/>
   </>
 );
 
