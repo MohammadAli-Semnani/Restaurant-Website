@@ -5,13 +5,14 @@ import { Navbar } from './components';
 import './App.css';
 
 const App = () => (
-  <div>
+  <>
     <Navbar />
     <Header />
     <AboutUs />
     <SpecialMenu />
-    <Chef/>
-  </div>
+    <Chef />
+    <Intro/>
+  </>
 );
 
 export default App;
