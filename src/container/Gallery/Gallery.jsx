@@ -4,19 +4,23 @@ import SubHeading from "../../components/SubHeading/SubHeading"
  
 
 import {BsArrowLeftShort,BsArrowRightShort, BsInstagram} from "react-icons/bs"
+import { images } from '../../constants';
 const Gallery = () => {
 
   const scrollRef = React.useRef()
   // console.log(scrollRef.current);
+
+  const { gallery01, gallery02, gallery03, gallery04 } = images;
+  const galleryImages = [gallery01, gallery02, gallery03, gallery04]
+
   const scroll = (direction) => {
     const {current} = scrollRef
 
-    if (direction === "left") {
-       current.scrollLeft -= 300
+    if (direction === "right") {
+      current.scrollRight += 300
     } else {
-        current.scrollRight += 300
+      current.scrollLeft -= 300
       }
-    
   }
 
   return (
@@ -34,10 +38,15 @@ const Gallery = () => {
 
       </div>
       <div className='app__gallery-images'>
-        <div className='app__gallery_container' ref={scrollRef}>
-
+        <div className='app__gallery-images_container' ref={scrollRef}>
+          {galleryImages.map((image, index) => (
+            <div className='app__gallery-images_card flex__center' key={`gallery-image-${index + 1}`}>
+              <img src={image} alt="gallery" />
+              <BsInstagram className='gallery__icon-image'/>
+            </div>
+        ))}
         </div>
-        <div className='app__gallery-images_arrow'>
+        <div className='app__gallery-images_arrows'>
           <BsArrowLeftShort className='gallery__arrow-icon' onClick={()=>scroll("left")}/>
           <BsArrowRightShort className='gallery__arrow-icon' onClick={()=>scroll("right")}/>
         </div>
