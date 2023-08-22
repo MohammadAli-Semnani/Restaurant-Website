@@ -3,7 +3,7 @@ import React from 'react';
 import './FooterOverlay.css';
 
 const FooterOverlay = () => (
-  <div>
+  <div className='app__footerOverlay'>
     FooterOverlay
   </div>
 );

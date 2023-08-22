@@ -26,6 +26,7 @@ const Gallery = () => {
   return (
     <div className='app__gallery flex__center app__wrapper'>
       <div className='app__gallery-content'>
+
         <SubHeading title="Instagram"/>
         <h1 className='headtext__cormorant'>
             Photo gallery
@@ -37,6 +38,7 @@ const Gallery = () => {
         <button className='custom__button'>View More </button>
 
       </div>
+
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
           {galleryImages.map((image, index) => (
@@ -46,6 +48,7 @@ const Gallery = () => {
             </div>
         ))}
         </div>
+
         <div className='app__gallery-images_arrows'>
           <BsArrowLeftShort className='gallery__arrow-icon' onClick={()=>scroll("left")}/>
           <BsArrowRightShort className='gallery__arrow-icon' onClick={()=>scroll("right")}/>
