@@ -1,0 +1,12 @@
+.app__footer{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: var(--color-black);
+    padding-top: 0;
+}
